@@ -8,8 +8,6 @@ import { Pokemon } from '../interfaces/Pokemon';
   providedIn: 'root'
 })
 export class RestRetrieverService {
-  private url: string = "http://localhost:3000/";
-
   private headers = new HttpHeaders({
     'Content-Type': 'application/json'
   });
@@ -19,7 +17,7 @@ export class RestRetrieverService {
   getList(listName: string): Observable<Listeable[]>{
     console.log(listName);
     return this.httpClient.get<Listeable[]>(
-      "/assets/data" + listName + ".json",
+      "/api" + listName,
       {
         headers: this.headers,
       }
@@ -29,7 +27,7 @@ export class RestRetrieverService {
   getPokemon(pokemonId: number): Observable<Pokemon>{
     console.log(pokemonId);
     return this.httpClient.get<Pokemon>(
-      "/assets/data/pokemon/" + pokemonId,
+      "/api/pokemon/" + pokemonId,
       {
         headers: this.headers,
       }
