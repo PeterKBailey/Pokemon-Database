@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Kanto",
+        "description": "First Generation",
+        "imageUrl": "https://static.wikia.nocookie.net/pokemon/images/8/85/Kanto_Let%27s_Go%2C_Pikachu%21_and_Let%27s_Go%2C_Eevee%21.png/revision/latest?cb=20200627084826"
+    },
+    {
+        "id": 2,
+        "name": "Johto",
+        "description": "Second Generation",
+        "imageUrl": "https://static.wikia.nocookie.net/pokemon/images/f/fe/Johto_HGSS.png/revision/latest?cb=20110213010249"
+    },
+    {
+        "id": 3,
+        "name": "Hoenn",
+        "description": "Third Generation",
+        "imageUrl": "https://static.wikia.nocookie.net/pokemon/images/8/85/Hoenn_ORAS.png/revision/latest?cb=20140610180618"
+    },
+    {
+        "id": 4,
+        "name": "Sinnoh",
+        "description": "Fourth Generation",
+        "imageUrl": "https://static.wikia.nocookie.net/pokemon/images/f/f8/Sinnoh_BDSP.png/revision/latest?cb=20210818192524"
+    }
+]

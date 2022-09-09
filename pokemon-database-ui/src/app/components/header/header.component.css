@@ -1,0 +1,25 @@
+:host {
+    /* padding: 60px; */
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: flex-end;
+
+    min-height: 100px;
+
+    background-color: #34a0a4;
+    color: #99d98c;
+    font-size: 30px;
+}
+:host > h1 {
+    margin: 0;
+    margin-left: 10px;
+    margin-right: auto;
+    justify-self: left;
+}
+:host > .search {
+    margin-right: 10px;
+    margin-left: auto;
+    color: #184E77;
+}

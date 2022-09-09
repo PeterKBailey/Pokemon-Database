@@ -1,0 +1,6 @@
+<div *ngFor="let item of itemList" class="card" routerLink="./{{item.id}}">
+    <h2>{{item.name}}</h2><br>
+
+    <img src="{{item.imageUrl}}" alt="{{item.name}}">
+    <p>{{item.description}}</p>
+</div>
